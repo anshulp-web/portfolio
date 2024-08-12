@@ -27,7 +27,6 @@ export const TECH_STACK = [
   'ReactJS',
   'ExpressJS',
   'NodeJS',
-  'NextJS',
   'Redux',
   'HTML',
   'CSS',
