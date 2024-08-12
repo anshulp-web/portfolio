@@ -18,7 +18,7 @@ const Recommendations = () => {
       </div>
       <div className=" w-full h-full mt-5 justify-items-start grid-flow-row md:grid-cols-2 grid-rows-auto gap-x-4 gap-y-4 px-2 md:px-8 pb-8">
         {isLoading
-          ? [1, 2, 3, 4].map(() => (
+          ? [1, 2].map(() => (
               <ParagraphSkeleton className={'p-8 h-full w-full relative'} />
             ))
           : data?.map((data, key) => (
