@@ -5,7 +5,7 @@ const recommendationCard = [
     name: 'Hemant Mewada',
     image: 'images/hemant-image.png',
     designation: 'Full Stack Developer',
-    view: 'I highly recommend Anshul as a MERN stack developer. We worked together at Trisha Websoft, and he consistently demonstrated exceptional skills in MongoDB, Express.js, React, and Node.js. His problem-solving abilities, attention to detail, and teamwork made him a valuable colleague. I am confident he will be an asset to any team. 👍! 🌟',
+    view: 'I highly recommend Anshul as a MERN stack developer. As his senior at Trisha Websoft, I had the opportunity to work closely with him, and he consistently demonstrated exceptional skills in MongoDB, Express.js, React, and Node.js. His problem-solving abilities, attention to detail, and teamwork made him a valuable colleague. I am confident he will be an asset to any team. 👍! 🌟',
     linkednURL: 'https://www.linkedin.com/in/hemant-mewada/',
   },
   {
