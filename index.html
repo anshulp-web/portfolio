@@ -302,25 +302,123 @@
             </div>
         </div>
     </section>
-
-    <section id="projects" class="section">
-        <div class="section-header">
-            <div class="section-tag">Portfolio</div>
-            <h2 class="section-title">Featured Projects</h2>
-            <p class="section-description">Showcasing impactful solutions that drive real-world results</p>
-        </div>
+<!-- ==================== COMPLETE PROJECTS SECTION HTML ==================== -->
+<section id="projects" class="section">
+    <div class="section-header">
+        <div class="section-tag">Portfolio</div>
+        <h2 class="section-title">Featured Projects</h2>
+        <p class="section-description">Production-ready AI solutions and full-stack applications impacting 600,000+ users</p>
+    </div>
+    
+    <!-- AI & Government Projects -->
+     
+    <div class="project-category">
+        <h3 class="category-title">
+            <i class="fas fa-robot"></i> AI & Government Solutions
+        </h3>
+        <br>
         <div class="projects-grid">
+            <!-- Project 1: Study Material Retrieval Agent -->
+            <div class="project-card">
+                <div class="project-image">
+                    <i class="fas fa-book-reader"></i>
+                </div>
+                <div class="project-content">
+                    <h3 class="project-title">Study Material Retrieval Agent (RAG)</h3>
+                    <div class="project-impact">
+                        <i class="fas fa-chart-line"></i> Production | 600,000+ Students
+                    </div>
+                    <p class="project-description">
+                        Built a Retrieval-Augmented Generation (RAG) agent that indexes large-scale study materials using Azure OpenAI embeddings and Pinecone vector database. Enabled 600,000+ students to instantly access exact study material through natural language queries with high-precision retrieval flows and hallucination-free responses.
+                    </p>
+                    <div class="project-tech">
+                        <span class="tech-badge"><i class="fas fa-brain"></i> Azure OpenAI</span>
+                        <span class="tech-badge"><i class="fas fa-database"></i> Pinecone</span>
+                        <span class="tech-badge"><i class="fas fa-link"></i> RAG</span>
+                        <span class="tech-badge"><i class="fab fa-python"></i> Python</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Project 2: Assessment & Evaluation Agent -->
+            <div class="project-card">
+                <div class="project-image">
+                    <i class="fas fa-clipboard-check"></i>
+                </div>
+                <div class="project-content">
+                    <h3 class="project-title">Assessment & Evaluation Agent</h3>
+                    <div class="project-impact">
+                        <i class="fas fa-chart-line"></i> Production | 600,000+ Students
+                    </div>
+                    <p class="project-description">
+                        Built an AI assessment engine using Azure OpenAI GPT-4o, LangChain, and LangGraph. Auto-generates curriculum-aligned quizzes using RAG and embeddings, evaluates answers with LLM reasoning, and produces topic-wise insights.
+                    </p>
+                    <div class="project-tech">
+                        <span class="tech-badge"><i class="fas fa-robot"></i> GPT-4o</span>
+                        <span class="tech-badge"><i class="fas fa-link"></i> LangChain</span>
+                        <span class="tech-badge"><i class="fas fa-project-diagram"></i> LangGraph</span>
+                        <span class="tech-badge"><i class="fas fa-bolt"></i> FastAPI</span>
+                        <span class="tech-badge"><i class="fab fa-react"></i> React.js</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Project 3: AI Career Guidance Agent -->
+            <div class="project-card">
+                <div class="project-image">
+                    <i class="fas fa-user-graduate"></i>
+                </div>
+                <div class="project-content">
+                    <h3 class="project-title">AI Career Guidance Agent</h3>
+                    <div class="project-impact">
+                        <i class="fas fa-chart-line"></i> Production | 600,000+ Students
+                    </div>
+                    <p class="project-description">
+                        Developed a personalized career recommendation agent using Azure OpenAI GPT-4o and LangGraph. Transforms assessment data into structured skill profiles, maps strengths to career paths via semantic matching, and orchestrates multi-agent refinement loops.
+                    </p>
+                    <div class="project-tech">
+                        <span class="tech-badge"><i class="fas fa-brain"></i> GPT-4o</span>
+                        <span class="tech-badge"><i class="fas fa-project-diagram"></i> LangGraph</span>
+                        <span class="tech-badge"><i class="fab fa-react"></i> React.js</span>
+                        <span class="tech-badge"><i class="fab fa-js"></i> TypeScript</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Project 4: Teacher Lifecycle Management System -->
+            <div class="project-card">
+                <div class="project-image">
+                    <i class="fas fa-chalkboard-teacher"></i>
+                </div>
+                <div class="project-content">
+                    <h3 class="project-title">Teacher Lifecycle Management + AI Sentiment</h3>
+                    <div class="project-impact">
+                        <i class="fas fa-map-marker-alt"></i> Govt. of Meghalaya
+                    </div>
+                    <p class="project-description">
+                        Built a microservice-based system to digitize teacher onboarding, training, and workflows. Developed AI module using Azure Computer Vision OCR and Text Analytics to extract text from handwritten feedback and perform sentiment analysis with real-time dashboard insights.
+                    </p>
+                    <div class="project-tech">
+                        <span class="tech-badge"><i class="fab fa-node-js"></i> MERN Stack</span>
+                        <span class="tech-badge"><i class="fas fa-eye"></i> Azure Vision</span>
+                        <span class="tech-badge"><i class="fas fa-file-alt"></i> OCR</span>
+                        <span class="tech-badge"><i class="fas fa-cubes"></i> Microservices</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Project 5: Meghalaya School Management System -->
             <div class="project-card">
                 <div class="project-image">
                     <i class="fas fa-school"></i>
                 </div>
                 <div class="project-content">
                     <h3 class="project-title">Meghalaya School Management System</h3>
+                    <div class="project-impact">
+                        <i class="fas fa-map-marker-alt"></i> Govt. of Meghalaya
+                    </div>
                     <p class="project-description">
-                        Comprehensive government platform for complete school and teacher lifecycle management including
-                        onboarding, transfers, leave management, salary processing, and budgeting. Built with
-                        microservices
-                        architecture and integrated Keycloak for enterprise-grade security.
+                        Comprehensive government platform for complete school and teacher lifecycle management including onboarding, transfers, leave management, salary processing, and budgeting. Built with microservices architecture and Keycloak for enterprise-grade security.
                     </p>
                     <div class="project-tech">
                         <span class="tech-badge"><i class="fas fa-cubes"></i> Microservices</span>
@@ -330,71 +428,142 @@
                     </div>
                 </div>
             </div>
+        </div>
+    </div>
 
-            <div class="project-card">
-                <div class="project-image">
-                    <i class="fas fa-user-graduate"></i>
-                </div>
-                <div class="project-content">
-                    <h3 class="project-title">HP Student Skill Platform</h3>
-                    <p class="project-description">
-                        AI-powered career guidance platform for Himachal Pradesh government. Developed intelligent
-                        agents
-                        using Azure OpenAI and LangChain to answer career and academic queries. Integrated AI-driven
-                        assessments including Interest Profiler for personalized student recommendations.
-                    </p>
-                    <div class="project-tech">
-                        <span class="tech-badge"><i class="fas fa-brain"></i> Azure OpenAI</span>
-                        <span class="tech-badge"><i class="fas fa-link"></i> LangChain</span>
-                        <span class="tech-badge"><i class="fas fa-language"></i> NLP</span>
-                        <span class="tech-badge"><i class="fab fa-python"></i> Python</span>
-                    </div>
-                </div>
-            </div>
-
+    <!-- E-Commerce & Business Solutions -->
+     <br>
+    <div class="project-category">
+        <h3 class="category-title">
+            <i class="fas fa-shopping-cart"></i> E-Commerce & Business Solutions
+        </h3>
+        <br>
+        <div class="projects-grid">
+            <!-- Project 6: Cheesiano Food Delivery -->
             <div class="project-card">
                 <div class="project-image">
                     <i class="fas fa-pizza-slice"></i>
                 </div>
                 <div class="project-content">
-                    <h3 class="project-title">Food Delivery Application</h3>
+                    <h3 class="project-title">Cheesiano - Food Delivery Platform</h3>
+                    <div class="project-impact">
+                        <i class="fas fa-globe"></i> Live Production
+                    </div>
                     <p class="project-description">
-                        End-to-end food delivery platform with responsive customer interface and comprehensive admin
-                        panel.
-                        Integrated third-party delivery APIs (Dunzo, Porter) for seamless order processing and real-time
-                        tracking. Enhanced user experience with optimized performance and intuitive design.
+                        Full-stack food delivery application with frontend and backend development. Integrated Porter and Shadowfax APIs for order management, developed admin panel with sales reports and invoice creation, implemented frontend filters and checkout page with payment gateway integration.
                     </p>
                     <div class="project-tech">
                         <span class="tech-badge"><i class="fab fa-react"></i> React.js</span>
                         <span class="tech-badge"><i class="fab fa-node-js"></i> Node.js</span>
                         <span class="tech-badge"><i class="fas fa-database"></i> MongoDB</span>
-                        <span class="tech-badge"><i class="fas fa-plug"></i> APIs</span>
+                        <span class="tech-badge"><i class="fas fa-credit-card"></i> Payment Gateway</span>
                     </div>
+                    <br>
+                    <a href="https://www.cheesiano.com/" target="_blank" class="project-link tech-badge">
+                        <i class="fas fa-external-link-alt"></i> View Live Project
+                    </a>
                 </div>
             </div>
 
+            <!-- Project 7: SportsDrive E-Commerce -->
             <div class="project-card">
                 <div class="project-image">
                     <i class="fas fa-swimmer"></i>
                 </div>
                 <div class="project-content">
-                    <h3 class="project-title">Swimwear E-Commerce Platform</h3>
+                    <h3 class="project-title">SportsDrive - Swimming Sports E-Commerce</h3>
+                    <div class="project-impact">
+                        <i class="fas fa-globe"></i> Live Production
+                    </div>
                     <p class="project-description">
-                        Full-featured e-commerce website with advanced reporting tools for sales and purchase tracking.
-                        Implemented data-driven analytics that increased business productivity by 30% through actionable
-                        insights and automated reporting dashboards.
+                        E-commerce platform for swimming sports products. Developed comprehensive admin panel with Blue Dart API integration for order management, sales report generation, invoice creation, complete user management, and inventory management using MERN stack.
                     </p>
                     <div class="project-tech">
-                        <span class="tech-badge"><i class="fas fa-shopping-bag"></i> E-Commerce</span>
-                        <span class="tech-badge"><i class="fas fa-chart-line"></i> Analytics</span>
-                        <span class="tech-badge"><i class="fas fa-database"></i> MySQL</span>
+                        <span class="tech-badge"><i class="fab fa-node-js"></i> MERN Stack</span>
+                        <span class="tech-badge"><i class="fas fa-shipping-fast"></i> Blue Dart API</span>
                         <span class="tech-badge"><i class="fas fa-chart-bar"></i> Reports</span>
+                        <span class="tech-badge"><i class="fas fa-warehouse"></i> Inventory</span>
+                    </div>
+                    <br>
+                    <a href="https://www.sportsdrive.in/" target="_blank" class="project-link tech-badge">
+                        <i class="fas fa-external-link-alt"></i> View Live Project
+                    </a>
+                </div>
+            </div>
+
+            <!-- Project 8: Business Solution HR & Inventory -->
+            <div class="project-card">
+                <div class="project-image">
+                    <i class="fas fa-briefcase"></i>
+                </div>
+                <div class="project-content">
+                    <h3 class="project-title">Enterprise Business Solution Platform</h3>
+                    <div class="project-impact">
+                        <i class="fas fa-building"></i> Enterprise Solution
+                    </div>
+                    <p class="project-description">
+                        Comprehensive business solution with HR module, inventory management, employee leave and salary management, invoice creation, attendance tracking, and role-based access control. Built complete system architecture using MERN stack for scalable enterprise operations.
+                    </p>
+                    <div class="project-tech">
+                        <span class="tech-badge"><i class="fab fa-node-js"></i> MERN Stack</span>
+                        <span class="tech-badge"><i class="fas fa-users-cog"></i> HR Module</span>
+                        <span class="tech-badge"><i class="fas fa-shield-alt"></i> RBAC</span>
+                        <span class="tech-badge"><i class="fas fa-calendar-check"></i> Attendance</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Project 9: JustURF Turf Booking -->
+            <div class="project-card">
+                <div class="project-image">
+                    <i class="fas fa-futbol"></i>
+                </div>
+                <div class="project-content">
+                    <h3 class="project-title">JustURF - Turf Booking Platform</h3>
+                    <div class="project-impact">
+                        <i class="fas fa-globe"></i> Live Production
+                    </div>
+                    <p class="project-description">
+                        Designed and developed complete turf booking website with order management system, time-slot management for bookings, comprehensive admin panel, and Google login integration. Streamlined booking process with real-time availability and automated scheduling.
+                    </p>
+                    <div class="project-tech">
+                        <span class="tech-badge"><i class="fab fa-node-js"></i> MERN Stack</span>
+                        <span class="tech-badge"><i class="fas fa-clock"></i> Time Slots</span>
+                        <span class="tech-badge"><i class="fab fa-google"></i> Google Auth</span>
+                        <span class="tech-badge"><i class="fas fa-calendar-alt"></i> Booking System</span>
+                    </div>
+                    <br>
+                    <a href="https://justurf.club/" target="_blank" class="project-link tech-badge">
+                        <i class="fas fa-external-link-alt"></i> View Live Project
+                    </a>
+                </div>
+            </div>
+
+            <!-- Project 10: Enterprise SaaS Platform -->
+            <div class="project-card">
+                <div class="project-image">
+                    <i class="fas fa-cloud"></i>
+                </div>
+                <div class="project-content">
+                    <h3 class="project-title">Enterprise SaaS Business Solution</h3>
+                    <div class="project-impact">
+                        <i class="fas fa-server"></i> SaaS Platform
+                    </div>
+                    <p class="project-description">
+                        Developed subscription-based enterprise SaaS platform providing comprehensive business solutions. Implemented subscription module with multi-tier access, including salary management, leave management, attendance tracking, and other enterprise modules based on subscription levels.
+                    </p>
+                    <div class="project-tech">
+                        <span class="tech-badge"><i class="fab fa-node-js"></i> MERN Stack</span>
+                        <span class="tech-badge"><i class="fas fa-crown"></i> Subscription</span>
+                        <span class="tech-badge"><i class="fas fa-cloud"></i> SaaS</span>
+                        <span class="tech-badge"><i class="fas fa-layer-group"></i> Multi-tenant</span>
                     </div>
                 </div>
             </div>
         </div>
-    </section>
-
+    </div>
+</section>
+<!-- ==================== COMPLETE PROJECTS SECTION HTML ==================== -->
     <section class="section">
         <div class="section-header">
             <div class="section-tag">Credentials</div>
